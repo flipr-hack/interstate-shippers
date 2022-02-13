@@ -95,7 +95,15 @@
 @media all and (max-width: 850px) and (min-width: 600px) {
   .landing-container {
     grid-template-columns: 1fr;
+    text-align: center;
+    .landing-info {
+      padding-left: 0;
+      padding: 0 18px;
+    }
     height: auto;
+    .landing-gif {
+      margin-top: 30px;
+    }
   }
 }
 
@@ -103,8 +111,13 @@
   .landing-container {
     grid-template-columns: 1fr;
     height: auto;
+    text-align: center;
+
+    padding-left: 0;
+
     .landing-info {
-      padding-left: 25px;
+      padding-left: 0px;
+      padding: 0 12px;
       .info-logo {
         padding-top: 50px;
         padding-bottom: 10px;
@@ -137,6 +150,7 @@
       }
     }
     .landing-gif {
+      margin-top: 12px;
       height: 100%;
       display: flex;
       justify-content: center;

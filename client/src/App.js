@@ -8,16 +8,22 @@ import LoginDriver from "./screens/Driver/Auth/Login/LoginDriver";
 import LoginDealer from "./screens/Dealer/Auth/Login/LoginDealer";
 import HomeDealer from "./screens/Dealer/Home/HomeDealer";
 import HomeDriver from "./screens/Driver/Home/HomeDriver";
+import HistoryDriver from "./screens/Driver/History/HistoryDriver";
+import ProfileDriver from "./screens/Driver/Profile/ProfileDriver";
+import HistoryDealer from "./screens/Dealer/History/HistoryDealer";
+import ProfileDealer from "./screens/Dealer/Profile/ProfileDealer";
 
 const App = () => {
   return (
     <div>
       <Router>
         <Switch>
+          {/* ---------------------------------------- */}
           {/* Landing Route */}
           <Route exact path="/">
             <Landing />
           </Route>
+          {/* ------------------------------------------- */}
           {/* Dealer Routes */}
           <Route exact path="/dealer/signup">
             <SignUpDealer />
@@ -28,6 +34,13 @@ const App = () => {
           <Route exact path="/dealer/home">
             <HomeDealer />
           </Route>
+          <Route exact path="/dealer/history">
+            <HistoryDealer />
+          </Route>
+          <Route exact path="/dealer/profile">
+            <ProfileDealer />
+          </Route>
+          {/* ---------------------------------------- */}
           {/* Driver Routes */}
           <Route exact path="/driver/signup">
             <SignUpDriver />
@@ -37,6 +50,12 @@ const App = () => {
           </Route>
           <Route exact path="/driver/home">
             <HomeDriver />
+          </Route>
+          <Route exact path="/driver/history">
+            <HistoryDriver />
+          </Route>
+          <Route exact path="/driver/profile">
+            <ProfileDriver />
           </Route>
         </Switch>
       </Router>

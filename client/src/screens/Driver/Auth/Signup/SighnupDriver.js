@@ -120,18 +120,18 @@ const SignUpDriver = () => {
         ) : (
           <div className="signup-user-details">
             <div className="input-structure">
-              <label>Age</label>
+              <label>Age (in Years)</label>
               <div className="input-icon">
                 <ContactPageIcon />
               </div>
-              <input type="text" placeholder="eg. 30 Years" />
+              <input type="number" placeholder="eg. 30 " />
             </div>
             <div className="input-structure">
-              <label>Experience</label>
+              <label>Experience (in Years)</label>
               <div className="input-icon">
                 <ScienceIcon />
               </div>
-              <input type="text" placeholder="eg. 3 years" />
+              <input type="number" placeholder="eg. 3" />
             </div>
             <div className="input-structure">
               <label>Transport Name</label>
@@ -148,11 +148,11 @@ const SignUpDriver = () => {
               <input type="number" placeholder="eg. xxxxxxxx..." />
             </div>
             <div className="input-structure">
-              <label>Truck Capacity</label>
+              <label>Truck Capacity(in Kg)</label>
               <div className="input-icon">
                 <AdfScannerIcon />
               </div>
-              <input type="capacity" placeholder="eg. 3 Kg" />
+              <input type="number" placeholder="eg. 3" />
             </div>
             <div className="intrested-routes">
               <div className="intrested-routes-head">3 Intrested Routes</div>

@@ -1,12 +1,12 @@
 import React from "react";
 import NavBar from "../../../components/NavBar/NavBar";
 
-const HomeDriver = () => {
+const ProfileDealer = () => {
   return (
     <div>
-      <NavBar identity="driver" />
+      <NavBar identity="dealer" />
     </div>
   );
 };
 
-export default HomeDriver;
+export default ProfileDealer;

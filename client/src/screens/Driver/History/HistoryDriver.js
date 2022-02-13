@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../../components/NavBar/NavBar";
 
-const HomeDriver = () => {
+const HistoryDriver = () => {
   return (
     <div>
       <NavBar identity="driver" />
@@ -9,4 +9,4 @@ const HomeDriver = () => {
   );
 };
 
-export default HomeDriver;
+export default HistoryDriver;
