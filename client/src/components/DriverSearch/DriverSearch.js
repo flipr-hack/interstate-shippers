@@ -51,7 +51,7 @@ const DriverSearch = (props) => {
               defaultValue={"DEFAULT"}
             >
               <option value="DEFAULT" disabled>
-                Select your option
+                Select source state
               </option>
               {state.map((item) => (
                 <option value={item}>{item}</option>
@@ -66,7 +66,7 @@ const DriverSearch = (props) => {
               defaultValue={"DEFAULT"}
             >
               <option value="DEFAULT" disabled>
-                Select your option
+                Select source city
               </option>
               {data
                 .filter((item) => item.state === sourceState)
@@ -86,7 +86,7 @@ const DriverSearch = (props) => {
               defaultValue={"DEFAULT"}
             >
               <option value="DEFAULT" disabled>
-                Select your option
+                Select destination state
               </option>
               {state.map((item) => (
                 <option value={item}>{item}</option>
@@ -101,7 +101,7 @@ const DriverSearch = (props) => {
               defaultValue={"DEFAULT"}
             >
               <option value="DEFAULT" disabled>
-                Select your option
+                Select destination city
               </option>
               {data
                 .filter((item) => item.state === destinationState)

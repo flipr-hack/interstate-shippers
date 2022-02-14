@@ -1,6 +1,7 @@
 import React from "react";
 import { orderData } from "../../data/order-data";
 import DriverHomeBox from "../DriverHomeBox/DriverHomeBox";
+
 import NoPending from "../../media/Nothing/no-table.svg";
 
 const BookedDealers = () => {

@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./screens/Landing/Landing";
 import SignUpDealer from "./screens/Dealer/Auth/Signup/SignUpDealer";
