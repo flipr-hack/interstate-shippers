@@ -1,2 +1,3 @@
-# iiitk-blog/server
- server side of app.
+server side of the app
+
+run npn install and then npm start
