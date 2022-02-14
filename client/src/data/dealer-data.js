@@ -5,7 +5,6 @@ export const dealerData = [
     userName: "ramesh",
     email: "ramesh@gmail.com",
     phone: "9876543210",
-    password: "12345",
     natureOfMaterial: "Cement",
     weightOfMaterial: "10",
     quantityOfMaterial: "10",

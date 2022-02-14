@@ -10,18 +10,22 @@ const userSchema = mongoose.Schema({
   transportName: { type: String, required: true },
   truckNumber: { type: String, required: true },
   truckCapacity: { type: String, required: true },
+
   sourceStateOne: { type: String, required: true },
   sourceCityOne: { type: String, required: true },
   destinationStateOne: { type: String, required: true },
   destinationCityOne: { type: String, required: true },
+
   sourceStateTwo: { type: String, required: true },
   sourceCityTwo: { type: String, required: true },
   destinationStateTwo: { type: String, required: true },
   destinationCityTwo: { type: String, required: true },
+
   sourceStateThree: { type: String, required: true },
   sourceCityThree: { type: String, required: true },
   destinationStateThree: { type: String, required: true },
   destinationCityThree: { type: String, required: true },
+
   id: { type: String },
 });
-export default mongoose.model("User", userSchema);
+export default mongoose.model("drivers", userSchema);

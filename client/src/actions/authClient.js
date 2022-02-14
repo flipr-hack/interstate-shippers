@@ -7,7 +7,7 @@ export const signinClient = (formDataClient, history) => async (dispatch) => {
 
     dispatch({ type: AUTH, data });
 
-    history.push("/home/client");
+    history.push("/dealer/home");
   } catch (error) {
     console.log(error);
   }
@@ -19,7 +19,7 @@ export const signupClient = (formDataClient, history) => async (dispatch) => {
 
     dispatch({ type: AUTH, data });
 
-    history.push("/home/client");
+    history.push("/dealer/home");
   } catch (error) {
     console.log(error);
   }

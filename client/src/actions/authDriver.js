@@ -7,7 +7,7 @@ export const signin = (formData, history) => async (dispatch) => {
 
     dispatch({ type: AUTH, data });
 
-    history.push("/home/driver");
+    history.push("/driver/home");
   } catch (error) {
     console.log(error);
   }
@@ -19,7 +19,7 @@ export const signup = (formData, history) => async (dispatch) => {
 
     dispatch({ type: AUTH, data });
 
-    history.push("/home/driver");
+    history.push("/driver/home");
   } catch (error) {
     console.log(error);
   }

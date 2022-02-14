@@ -12,4 +12,4 @@ const userClientSchema = mongoose.Schema({
   sourceCity: { type: String, required: true },
   id: { type: String },
 });
-export default mongoose.model("UserClient", userClientSchema);
+export default mongoose.model("dealers", userClientSchema);
