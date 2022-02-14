@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hardcore-shippers/static/css/main.7c724716.css",
+    "main.js": "/hardcore-shippers/static/js/main.e118c05c.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/hardcore-shippers/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/landing.gif": "/hardcore-shippers/static/media/landing.7eeba83c017858379914.gif",
+    "static/media/no-table.svg": "/hardcore-shippers/static/media/no-table.8107acb7865c3ce696b627afcbe2f3d1.svg",
+    "static/media/no-booking.svg": "/hardcore-shippers/static/media/no-booking.d4c40fce065de290a1df4d3557889353.svg",
+    "static/media/no-order.svg": "/hardcore-shippers/static/media/no-order.1066f46c1b68ac7a42bb946b948206af.svg",
+    "static/media/logo.svg": "/hardcore-shippers/static/media/logo.0f43fa83ae1b5bc7d2dddb4c0fe6bb1d.svg",
+    "index.html": "/hardcore-shippers/index.html",
+    "main.7c724716.css.map": "/hardcore-shippers/static/css/main.7c724716.css.map",
+    "main.e118c05c.js.map": "/hardcore-shippers/static/js/main.e118c05c.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/hardcore-shippers/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c724716.css",
+    "static/js/main.e118c05c.js"
+  ]
+}
