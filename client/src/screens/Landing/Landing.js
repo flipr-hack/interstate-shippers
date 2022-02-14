@@ -17,9 +17,9 @@ const Landing = () => {
         <div className="info-buttons">
           <div className="button-text">Continue as a...</div>
           <div className="button-links">
-            <LandingButton link="dealer/signup" value="Dealer" />
+            <LandingButton link="dealer/home" value="Dealer" />
             <span className="link-seperator">or</span>
-            <LandingButton link="driver/signup" value="Driver" />
+            <LandingButton link="driver/home" value="Driver" />
           </div>
         </div>
       </div>

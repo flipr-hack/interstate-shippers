@@ -12,12 +12,12 @@ const NoBooking = (props) => {
       <div className="no-booking-history-image">
         <img src={NoBookingImage} alt="No Booking" />
       </div>
-      <Button className="no-booking-history-text">
-        <Link to={`/${props.identity}/home`}>
-          No Booking till date. Go to Home Page for Booking &nbsp;
+      <Link to={`/${props.identity}/home`}>
+        <Button className="no-booking-history-text">
+          {props.text} &nbsp;
           <ArrowRightAltIcon />
-        </Link>
-      </Button>
+        </Button>
+      </Link>
     </div>
   );
 };

@@ -9,16 +9,14 @@
       width: 100%;
     }
   }
-  .no-booking-history-text {
-    padding: 10px 50px;
-    a {
-      display: flex;
-      align-items: center;
+  a {
+    text-decoration: none;
+    .no-booking-history-text {
       font-weight: 600;
       font-size: 18px;
       color: #000000;
-      text-decoration: none;
       text-transform: capitalize;
+      padding: 10px 50px;
     }
   }
 }
@@ -28,9 +26,9 @@
       width: 480px;
       margin: 42px auto;
     }
-    .no-booking-history-text {
-      padding: 7px 42px;
-      a {
+    a {
+      .no-booking-history-text {
+        padding: 7px 42px;
         font-size: 16px;
       }
     }
@@ -42,9 +40,9 @@
       width: 320px;
       margin: 30px auto;
     }
-    .no-booking-history-text {
-      padding: 4px 28px;
-      a {
+    a {
+      .no-booking-history-text {
+        padding: 4px 28px;
         font-size: 12px;
       }
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.scss";
 import Logo from "../../media/Logo/logo.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import OutsideClickHandler from "react-outside-click-handler";
@@ -16,8 +16,17 @@ const NavBar = (props) => {
     <nav>
       <div className="nav-bar-container">
         <div className="nav-bar-logo">
-          <img src={Logo} alt="logo" />
-          <div className="nav-logo-name">Hardcore Shippers</div>
+          <Link
+            to="/"
+            style={{
+              textDecoration: "none",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <img src={Logo} alt="logo" />
+            <div className="nav-logo-name">Hardcore Shippers</div>
+          </Link>
         </div>
 
         <div className="window-navigation nav-bar-links">

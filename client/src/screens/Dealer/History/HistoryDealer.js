@@ -24,7 +24,10 @@ const HistoryDealer = () => {
       <PageHeading heading="History" />
       {orderData.filter((order) => order.dealerName === "Mr. Suresh").length ===
       0 ? (
-        <NoBooking identity="dealer" />
+        <NoBooking
+          identity="dealer"
+          text=" No Booking till date. Go to Home Page for Booking"
+        />
       ) : (
         <>
           <Tabs
@@ -40,6 +43,7 @@ const HistoryDealer = () => {
               .map((order) => {
                 return (
                   <DeliveryBox
+                    identity="dealer"
                     natureOfMaterial={order.natureOfMaterial}
                     weightOfMaterial={order.weightOfMaterial}
                     quantityOfMaterial={order.quantityOfMaterial}

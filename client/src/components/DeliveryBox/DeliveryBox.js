@@ -1,6 +1,6 @@
 import React from "react";
 import "./DeliveryBox.scss";
-
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 const DeliveryBox = (props) => {
   // const [color, setColor] = React.useState("");
   return (
@@ -12,17 +12,19 @@ const DeliveryBox = (props) => {
       <div className="product-delivery-source">
         ({props.sourceState}-{props.sourceCity})
       </div>
-      <img
-        src="http://assets.stickpng.com/images/58f8bcf70ed2bdaf7c128307.png"
-        alt=""
-        style={{ width: "20px", height: "30px", marginLeft: "50px" }}
-      />
+      <ArrowDownwardIcon />
       <div className="product-delivery-destination">
         ({props.destinationState}-{props.destinationCity})
       </div>
-      <div className="product-delivery-driver">
-        Driver Name : {props.driverName}
-      </div>
+      {props.identity === "dealer" ? (
+        <div className="product-delivery-driver">
+          Driver Name : {props.driverName}
+        </div>
+      ) : (
+        <div className="product-delivery-driver">
+          Dealer Name : {props.dealerName}
+        </div>
+      )}
       {}
       <div className="product-delivery-status">
         <div
