@@ -6,10 +6,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Button } from "@mui/material";
+import { useHistory } from "react-router-dom";
 
 // Creating navbar
 
 const NavBar = (props) => {
+  const history = useHistory();
   const [menu, setMenu] = React.useState(1);
 
   return (
@@ -55,6 +57,9 @@ const NavBar = (props) => {
             variant="outlined"
             color="error"
             className="nav-bar-link-items logout-window"
+            onClick={() => {
+              history.push(`/${props.identity}/login`);
+            }}
           >
             Logout
           </Button>
@@ -95,7 +100,13 @@ const NavBar = (props) => {
                   Profile
                 </NavLink>
 
-                <Button color="error" className=" logout-mobile">
+                <Button
+                  color="error"
+                  className=" logout-mobile"
+                  onClick={() => {
+                    history.push(`/${props.identity}/login`);
+                  }}
+                >
                   Logout
                 </Button>
               </div>
