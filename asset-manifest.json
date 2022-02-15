@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hardcore-shippers/static/css/main.7c724716.css",
-    "main.js": "/hardcore-shippers/static/js/main.29b5bd4a.js",
+    "main.js": "/hardcore-shippers/static/js/main.94ccd66b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/hardcore-shippers/static/js/787.c4e7f8f9.chunk.js",
     "static/media/landing.gif": "/hardcore-shippers/static/media/landing.7eeba83c017858379914.gif",
     "static/media/no-table.svg": "/hardcore-shippers/static/media/no-table.8107acb7865c3ce696b627afcbe2f3d1.svg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/hardcore-shippers/static/media/logo.0f43fa83ae1b5bc7d2dddb4c0fe6bb1d.svg",
     "index.html": "/hardcore-shippers/index.html",
     "main.7c724716.css.map": "/hardcore-shippers/static/css/main.7c724716.css.map",
-    "main.29b5bd4a.js.map": "/hardcore-shippers/static/js/main.29b5bd4a.js.map",
+    "main.94ccd66b.js.map": "/hardcore-shippers/static/js/main.94ccd66b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/hardcore-shippers/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c724716.css",
-    "static/js/main.29b5bd4a.js"
+    "static/js/main.94ccd66b.js"
   ]
 }
