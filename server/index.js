@@ -17,6 +17,10 @@ app.use("/user/client", userRouterClient);
 //   "mongodb+srv://pratik621:pratik621@cluster0.upuhs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+  res.send("Hardcore Shippers");
+});
+
 mongoose
   .connect(process.env.CONNECTION_URL, {
     useNewUrlParser: true,

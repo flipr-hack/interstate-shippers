@@ -55,7 +55,7 @@ export const driverData = [
     route2: {
       id: 2,
       sourceState: "Bihar",
-      sourceCity: "Patna",
+      sourceCity: "Gaya",
       destinationState: "Bihar",
       destinationCity: "Muzaffarpur",
     },
@@ -81,8 +81,8 @@ export const driverData = [
     truckCapacity: 100,
     route1: {
       id: 1,
-      sourceState: "Madhya Pradesh",
-      sourceCity: "Bhopal",
+      sourceState: "Bihar",
+      sourceCity: "Patna",
       destinationState: "Madhya Pradesh",
       destinationCity: "Indore",
     },
@@ -123,7 +123,7 @@ export const driverData = [
     route2: {
       id: 2,
       sourceState: "Bihar",
-      sourceCity: "Patna",
+      sourceCity: "Gaya",
       destinationState: "Bihar",
       destinationCity: "Muzaffarpur",
     },
@@ -150,9 +150,9 @@ export const driverData = [
     route1: {
       id: 1,
       sourceState: "Madhya Pradesh",
-      sourceCity: "Bhopal",
+      sourceCity: "Gaya",
       destinationState: "Madhya Pradesh",
-      destinationCity: "Indore",
+      destinationCity: "Bhopal",
     },
     route2: {
       id: 2,
@@ -218,9 +218,9 @@ export const driverData = [
     route1: {
       id: 1,
       sourceState: "Madhya Pradesh",
-      sourceCity: "Bhopal",
+      sourceCity: "Indore",
       destinationState: "Madhya Pradesh",
-      destinationCity: "Indore",
+      destinationCity: "Bhopal",
     },
     route2: {
       id: 2,
