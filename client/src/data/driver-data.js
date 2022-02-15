@@ -81,8 +81,8 @@ export const driverData = [
     truckCapacity: 100,
     route1: {
       id: 1,
-      sourceState: "Bihar",
-      sourceCity: "Patna",
+      sourceState: "Madhya Pradesh",
+      sourceCity: "Bhopal",
       destinationState: "Madhya Pradesh",
       destinationCity: "Indore",
     },
@@ -150,9 +150,9 @@ export const driverData = [
     route1: {
       id: 1,
       sourceState: "Madhya Pradesh",
-      sourceCity: "Gaya",
+      sourceCity: "Bhopal",
       destinationState: "Madhya Pradesh",
-      destinationCity: "Bhopal",
+      destinationCity: "Indore",
     },
     route2: {
       id: 2,
