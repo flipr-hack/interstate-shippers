@@ -48,6 +48,7 @@ const LoginDriver = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(signin(formData, history));
+    history.push("/driver/home");
   };
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

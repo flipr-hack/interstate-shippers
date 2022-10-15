@@ -71,6 +71,7 @@ const SignUpDriver = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(signup(formData, history));
+    history.push("/driver/home");
   };
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

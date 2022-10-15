@@ -34,6 +34,7 @@ const LoginDealer = () => {
     e.preventDefault();
 
     dispatch(signinClient(formDataClient, history));
+    history.push("/dealer/home");
   };
   const handleChange = (e) => {
     setFormDataClient({ ...formDataClient, [e.target.name]: e.target.value });
